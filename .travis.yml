@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6.2"
+script:
+  - py.test test.py
+
+after script:
+notifications:
+  recipients:
+    rafa9sagioro@hotmail.com
